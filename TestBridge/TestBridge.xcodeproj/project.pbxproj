@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36254A5E1C5DC7390042F5BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36254A5D1C5DC7390042F5BE /* AppDelegate.swift */; };
+		36254A601C5DC7390042F5BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36254A5F1C5DC7390042F5BE /* Assets.xcassets */; };
+		36254A631C5DC7390042F5BE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36254A611C5DC7390042F5BE /* MainMenu.xib */; };
+		36254A6C1C5DC76C0042F5BE /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36254A6A1C5DC76C0042F5BE /* MainWindowController.swift */; };
+		36254A6D1C5DC76C0042F5BE /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36254A6B1C5DC76C0042F5BE /* MainWindowController.xib */; };
+		36254A721C5DD4A20042F5BE /* SimpleCppObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36254A711C5DD4A20042F5BE /* SimpleCppObject.cpp */; };
+		36254A741C5DD6410042F5BE /* SimpleObjcObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 36254A731C5DD6410042F5BE /* SimpleObjcObject.m */; };
+		36254A761C5DD6E80042F5BE /* ObjcCppObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36254A751C5DD6E80042F5BE /* ObjcCppObject.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36254A5A1C5DC7390042F5BE /* TestBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36254A5D1C5DC7390042F5BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36254A5F1C5DC7390042F5BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36254A621C5DC7390042F5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		36254A641C5DC7390042F5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36254A6A1C5DC76C0042F5BE /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		36254A6B1C5DC76C0042F5BE /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		36254A6E1C5DCBC00042F5BE /* SimpleCppObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleCppObject.h; sourceTree = "<group>"; };
+		36254A6F1C5DCCBE0042F5BE /* SimpleObjcObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleObjcObject.h; sourceTree = "<group>"; };
+		36254A701C5DD4A20042F5BE /* TestBridge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestBridge-Bridging-Header.h"; sourceTree = "<group>"; };
+		36254A711C5DD4A20042F5BE /* SimpleCppObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleCppObject.cpp; sourceTree = "<group>"; };
+		36254A731C5DD6410042F5BE /* SimpleObjcObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleObjcObject.m; sourceTree = "<group>"; };
+		36254A751C5DD6E80042F5BE /* ObjcCppObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjcCppObject.mm; sourceTree = "<group>"; };
+		36254A771C5DD6FC0042F5BE /* ObjcCppObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcCppObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36254A571C5DC7390042F5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36254A511C5DC7390042F5BE = {
+			isa = PBXGroup;
+			children = (
+				36254A5C1C5DC7390042F5BE /* TestBridge */,
+				36254A5B1C5DC7390042F5BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36254A5B1C5DC7390042F5BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36254A5A1C5DC7390042F5BE /* TestBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36254A5C1C5DC7390042F5BE /* TestBridge */ = {
+			isa = PBXGroup;
+			children = (
+				36254A5D1C5DC7390042F5BE /* AppDelegate.swift */,
+				36254A5F1C5DC7390042F5BE /* Assets.xcassets */,
+				36254A611C5DC7390042F5BE /* MainMenu.xib */,
+				36254A641C5DC7390042F5BE /* Info.plist */,
+				36254A6A1C5DC76C0042F5BE /* MainWindowController.swift */,
+				36254A6B1C5DC76C0042F5BE /* MainWindowController.xib */,
+				36254A6E1C5DCBC00042F5BE /* SimpleCppObject.h */,
+				36254A711C5DD4A20042F5BE /* SimpleCppObject.cpp */,
+				36254A6F1C5DCCBE0042F5BE /* SimpleObjcObject.h */,
+				36254A731C5DD6410042F5BE /* SimpleObjcObject.m */,
+				36254A751C5DD6E80042F5BE /* ObjcCppObject.mm */,
+				36254A771C5DD6FC0042F5BE /* ObjcCppObject.h */,
+				36254A701C5DD4A20042F5BE /* TestBridge-Bridging-Header.h */,
+			);
+			path = TestBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36254A591C5DC7390042F5BE /* TestBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36254A671C5DC7390042F5BE /* Build configuration list for PBXNativeTarget "TestBridge" */;
+			buildPhases = (
+				36254A561C5DC7390042F5BE /* Sources */,
+				36254A571C5DC7390042F5BE /* Frameworks */,
+				36254A581C5DC7390042F5BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestBridge;
+			productName = TestBridge;
+			productReference = 36254A5A1C5DC7390042F5BE /* TestBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36254A521C5DC7390042F5BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Timothy Shull";
+				TargetAttributes = {
+					36254A591C5DC7390042F5BE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 36254A551C5DC7390042F5BE /* Build configuration list for PBXProject "TestBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36254A511C5DC7390042F5BE;
+			productRefGroup = 36254A5B1C5DC7390042F5BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36254A591C5DC7390042F5BE /* TestBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36254A581C5DC7390042F5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36254A601C5DC7390042F5BE /* Assets.xcassets in Resources */,
+				36254A6D1C5DC76C0042F5BE /* MainWindowController.xib in Resources */,
+				36254A631C5DC7390042F5BE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36254A561C5DC7390042F5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36254A761C5DD6E80042F5BE /* ObjcCppObject.mm in Sources */,
+				36254A741C5DD6410042F5BE /* SimpleObjcObject.m in Sources */,
+				36254A721C5DD4A20042F5BE /* SimpleCppObject.cpp in Sources */,
+				36254A6C1C5DC76C0042F5BE /* MainWindowController.swift in Sources */,
+				36254A5E1C5DC7390042F5BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36254A611C5DC7390042F5BE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36254A621C5DC7390042F5BE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36254A651C5DC7390042F5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36254A661C5DC7390042F5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36254A681C5DC7390042F5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestBridge/TestBridge-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36254A691C5DC7390042F5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestBridge/TestBridge-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36254A551C5DC7390042F5BE /* Build configuration list for PBXProject "TestBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36254A651C5DC7390042F5BE /* Debug */,
+				36254A661C5DC7390042F5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36254A671C5DC7390042F5BE /* Build configuration list for PBXNativeTarget "TestBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36254A681C5DC7390042F5BE /* Debug */,
+				36254A691C5DC7390042F5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36254A521C5DC7390042F5BE /* Project object */;
+}

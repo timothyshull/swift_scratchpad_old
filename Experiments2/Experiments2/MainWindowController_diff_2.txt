@@ -1,0 +1,56 @@
+--- 
+
++++ 
+
+@@ -38,13 +38,6 @@
+
+                             <font key="font" metaFont="system"/>
+                         </buttonCell>
+                     </button>
+-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4u0-2d-t6W">
+-                        <rect key="frame" x="314" y="498" width="81" height="32"/>
+-                        <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Jk5-Sa-xLB">
+-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+-                            <font key="font" metaFont="system"/>
+-                        </buttonCell>
+-                    </button>
+                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VvX-EA-jcF">
+                         <rect key="frame" x="439" y="509" width="81" height="32"/>
+                         <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="XtP-jt-hJc">
+@@ -66,6 +59,35 @@
+
+                             <font key="font" metaFont="system"/>
+                         </buttonCell>
+                     </button>
++                    <form verticalHuggingPriority="750" fixedFrame="YES" mode="track" allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jwc-AL-QlX">
++                        <rect key="frame" x="233" y="190" width="116" height="52"/>
++                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
++                        <size key="cellSize" width="60.09716796875" height="22"/>
++                        <size key="intercellSpacing" width="1" height="8"/>
++                        <formCell key="prototype" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="justified" title="Field:" id="M5B-6e-7qD">
++                            <font key="font" metaFont="system"/>
++                            <font key="titleFont" metaFont="system"/>
++                        </formCell>
++                        <cells>
++                            <column>
++                                <formCell scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="justified" title="Field 1:" id="XpV-YC-O63">
++                                    <font key="font" metaFont="system"/>
++                                    <font key="titleFont" metaFont="system"/>
++                                </formCell>
++                                <formCell scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="justified" tag="1" title="Field 2:" id="kh1-bj-R6A">
++                                    <font key="font" metaFont="system"/>
++                                    <font key="titleFont" metaFont="system"/>
++                                </formCell>
++                            </column>
++                        </cells>
++                    </form>
++                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4u0-2d-t6W">
++                        <rect key="frame" x="297" y="562" width="81" height="32"/>
++                        <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Jk5-Sa-xLB">
++                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
++                            <font key="font" metaFont="system"/>
++                        </buttonCell>
++                    </button>
+                 </subviews>
+             </view>
+             <point key="canvasLocation" x="353" y="522"/>
